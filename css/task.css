@@ -1,0 +1,95 @@
+/* company name:WGBL India pvt ltd author:Sandesh*/
+* {
+    box-sizing: border-box;
+}
+.container
+{
+    background-color: white;
+    height: 736px;
+    width: 1285px;
+    border:2px solid skyblue;
+}
+.container2
+{
+    height: 650px;
+    width: 1000px;
+    margin-left: 110px;
+}
+.container3
+{
+    height: 300px;
+    width: 1281px;
+    padding-left: 30px;
+    border:2px solid skyblue;
+}
+.col1
+{
+    float: left;
+    width: 20%;
+    padding: 10px;
+    height: 100px;
+    border:2px solid skyblue;
+}
+.col2
+{
+    float: left;
+    width: 80%;
+    height: 100px;
+    border:2px solid skyblue;
+}
+.col11
+{
+    float: left;
+    width: 20%;
+    padding: 10px;
+    height: 100px;
+
+    margin:20px;
+}
+
+.col3
+{
+    float: left;
+    width: 100%;
+    padding-left: : 10px;
+    height: 200px;
+    border:2px solid skyblue;
+    margin-left: 5px;
+}
+.col4
+{
+    float: left;
+    width: 100%;
+    padding: 10px;
+    height: 300px;
+    border:2px solid skyblue;
+}
+.col5
+{
+    float: left;
+    width: 100%;
+    padding: 10px;
+    height: 36px;
+    border:2px solid skyblue;
+}
+.row:after
+{
+   content: "";
+    display: table;
+    clear: both;
+}
+h2
+{
+    margin-top: 1px;
+    font family="DejaVu Serif Condensed;
+}
+.c1
+{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+a
+{
+    color: green;
+    margin-left: 15px;
+}
