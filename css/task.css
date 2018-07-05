@@ -18,8 +18,8 @@
 .col1{
   float: left;
   padding: 10px;
-  width: auto;
-  height: 100px;
+  width: 150px;
+  height: auto;
 }
 .col2{
   float: left;
@@ -27,6 +27,7 @@
   height: 100px;
   text-align: center;
   margin-bottom: 20px;
+  margin-top: 20px;
 }
 .col11{
   float: left;
