@@ -100,12 +100,6 @@ h5{
   font-style: italic;
   color: #87ceeb;
 }
-.jumbotron{
-  width: 80%;
-  height: auto;
-  margin-left:150px;
-  display: inline-block;
-}
 .cards .jumbotron{
   margin-left:150px;
 }
@@ -136,9 +130,6 @@ h5{
   padding: 2px 16px;
   color: #4CAF50;
 }
-.footer{
-  background-color: rgb(63,58,58);
-}
 .footer h3{
   font-weight: bold;
   color:#ffffff;
@@ -154,10 +145,31 @@ h5{
   margin-top:0px;
   margin-bottom: auto;
 }
+.footer{
+  background-color: rgb(63,58,58);
+  display: inline-block;
+  width: 80%;
+  height: auto;
+  margin-left:150px;
+}
 .space{
   padding-left: 2px;
 }
+.footer .col-sm{
+  padding: 30px;
+  margin-left: 20px;
+}
+.break-line{
+  word-break: break-all;
+}
 @media(max-width: 320px){
+ .footer{
+    background-color: rgb(63,58,58);
+    display: inline-block;
+    width: 100%;
+    height: auto;
+    margin-left:0px;
+  }
   .container{
     margin-left: 2px;
   }
@@ -211,6 +223,13 @@ h5{
 @media (max-width: 920px) and (min-width: 460px) {
   .container{
     margin-left: 2px;
+  }
+  .footer{
+    background-color: rgb(63,58,58);
+    display: inline-block;
+    width: 95%;
+    height: auto;
+    margin-left:10px;
   }
   .col-xs{
     float: left;
