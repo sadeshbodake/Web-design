@@ -1,11 +1,17 @@
+/*****************
+General Styles
+****************/
+.clearfix {
+  clear: both;
+}
  *{
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 .row{
-  margin-left: 0px;
+  margin-left: 0;
 }
 .container{
-  background-color: white;
+  background-color:#ffffff;
   height: 890px;
   width: 100%;
 }
@@ -32,26 +38,26 @@
   height: auto;
 }
 .btn{
-  background-color: #4CAF50;
+  background-color:#4CAF50;
   border:none;
   padding: 10px 28px;
   text-align: center;
   display: inline-block;
-  color: white;
+  color: #ffffff;
   margin-bottom: 10px;
   overflow: auto;
 }
 .header-link{
   float: right;
-  background-color: skyblue;
+  background-color: #87ceeb;
   padding: 10px 25px;
   text-align: center;
   display: inline-block;
-  color: white;
+  color:#ffffff;
   overflow: auto;
 }
 .header-link a{
-  color:white;
+  color:#ffffff;
 }
 .banner{
   position: relative;
@@ -59,21 +65,21 @@
 .overlay{
   position: absolute;
   background-color: rgba(0,0,0,0.3);
-  top: 35%;
+  top: 0;
   left: 0;
   right: 0;
   bottom: 0;
   width:100%;
   height: 80%;
   overflow: auto;
-  height: 65%;
+  height: 100%;
 }
 .text{
   position: absolute;
   top: 20%;
   left: 10%;
   bottom: 0;
-  color: green;
+  color:#4CAF50;
   font-style: bold;
 }
 .banner img{
@@ -81,18 +87,18 @@
   width:100%;
 }
 .banner small{
-  color: skyblue;
+  color: #87ceeb;
 }
 h2{
   text-align: center;
-  color:green;
+  color:#4CAF50;
 }
 h3{
   font-weight: bold;
 }
 h5{
   font-style: italic;
-  color: skyblue;
+  color: #87ceeb;
 }
 .jumbotron{
   width: 80%;
@@ -112,13 +118,13 @@ h5{
   box-shadow:rgba(0,0,0,0.2);
   width: 20%;
   height: 30%;
-  border-color: skyblue;
+  border-color: #87ceeb;
   display: inline-block;
   margin: 20px;
   padding: 10px 16px;
 }
 .card:hover{
-  box-shadow: 0 8px 16px 0 skyblue;
+  box-shadow: 0 8px 16px 0 #87ceeb;
 }
 .card img{
   width: 70%;
@@ -128,22 +134,28 @@ h5{
 }
 .card:hover,.card-container:active{
   padding: 2px 16px;
-  color: green;
+  color: #4CAF50;
 }
 .footer{
   background-color: rgb(63,58,58);
 }
 .footer h3{
   font-weight: bold;
-  color: white;
+  color:#ffffff;
 }
 .footer-style{
-  color: white;
+  color:#ffffff;
   font-size: 11px;
+}
+.card-container{
+  text-align:center;
 }
 .footer .jumbotron .col-sm{
   margin-top:0px;
   margin-bottom: auto;
+}
+.space{
+  padding-left: 2px;
 }
 @media(max-width: 320px){
   .container{
@@ -169,25 +181,15 @@ h5{
     margin-left: 50px;
   }
   .header-link {
-    background-color: skyblue;
+    background-color:#87ceeb;
     width: 100%;
     text-align: center;
-    color: white;
+    color:#ffffff;
     margin-bottom: 25px;
     text-align: center;
   }
   .header-link a{
     display: block;
-  }
-  .overlay{
-    position: absolute;
-    background-color: rgba(0,0,0,0.3);
-    top: 62%;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    width: 100%;
-    height: 37%;
   }
   .jumbotron {
     width:100%;
@@ -200,7 +202,7 @@ h5{
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     width: 80%;
     height: 30%;
-    border-color: skyblue;
+    border-color:#87ceeb;
     display: inline-block;
     margin: 20px;
     padding: 10px 16px;
@@ -230,25 +232,15 @@ h5{
     margin-left: 20px;
   }
   .header-link {
-    background-color: skyblue;
+    background-color:#87ceeb;
     width: 100%;
     text-align: center;
-    color: white;
+    color:#ffffff;
     margin-bottom: 25px;
     text-align: center;
   }
   .header-link a{
     display: block;
-  }
-  .overlay{
-    position: absolute;
-    background-color: rgba(0,0,0,0.3);
-    top: 66%;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    width: 100%;
-    height: 34%;
   }
   .jumbotron {
     width:100%;
@@ -264,7 +256,7 @@ h5{
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     width: 30%;
     height: 30%;
-    border-color: skyblue;
+    border-color:#87ceeb;
     display: inline-block;
     margin: 20px;
     padding: 10px 16px;
