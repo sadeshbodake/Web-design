@@ -1,8 +1,8 @@
- {
+ *{
     box-sizing: border-box;
 }
 .row{
-  margin-left: 20px;
+  margin-left: 0px;
 }
 .container{
   background-color: white;
@@ -20,24 +20,26 @@
   height: auto;
 }
 .col-sm{
+  float: left;
   width: 20%;
   height: auto;
-  display: inline-block;
-  margin: 23px;
+}
+.footer .jumbotron .col-sm{
+  margin: 20px;
 }
 .header-img{
   width: 50%;
   height: auto;
 }
 .btn{
-  margin-top: 20px;
   background-color: #4CAF50;
   border:none;
-  padding: 15px 32px;
+  padding: 10px 28px;
   text-align: center;
   display: inline-block;
   color: white;
   margin-bottom: 10px;
+  overflow: auto;
 }
 .header-link{
   float: right;
@@ -57,13 +59,14 @@
 .overlay{
   position: absolute;
   background-color: rgba(0,0,0,0.3);
-  top: 18%;
+  top: 35%;
   left: 0;
   right: 0;
   bottom: 0;
   width:100%;
   height: 80%;
   overflow: auto;
+  height: 65%;
 }
 .text{
   position: absolute;
@@ -84,6 +87,13 @@ h2{
   text-align: center;
   color:green;
 }
+h3{
+  font-weight: bold;
+}
+h5{
+  font-style: italic;
+  color: skyblue;
+}
 .jumbotron{
   width: 80%;
   height: auto;
@@ -91,15 +101,15 @@ h2{
   display: inline-block;
 }
 .cards .jumbotron{
-  margin-left:250px;
+  margin-left:150px;
 }
 .jumbotron p{
   color: black;
-  font-family:"Arial";
+  font-family:"Ubuntu";
   font-style: italic;
 }
 .card{
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  box-shadow:rgba(0,0,0,0.2);
   width: 20%;
   height: 30%;
   border-color: skyblue;
@@ -113,10 +123,12 @@ h2{
 .card img{
   width: 70%;
   height: 25%;
+  padding: 10px 10px;
+  margin-left: 15px;
 }
 .card:hover,.card-container:active{
   padding: 2px 16px;
-  color: red;
+  color: green;
 }
 .footer{
   background-color: rgb(63,58,58);
@@ -130,6 +142,131 @@ h2{
   font-size: 11px;
 }
 .footer .jumbotron .col-sm{
-  margin-top:12px;
+  margin-top:0px;
   margin-bottom: auto;
+}
+@media(max-width: 320px){
+  .container{
+    margin-left: 2px;
+  }
+  .col-xs{
+    float: left;
+    width: 70%;
+    height: auto;
+    margin-left:30%;
+    margin-right: 30%;
+  }
+  .col-md{
+    width:80%;
+    text-align: center;
+    margin-left: 9%;
+    font-size: 14pt;
+  }
+  .col-sm {
+    width: auto;
+    height: auto;
+    display: inline-block;
+    margin-left: 50px;
+  }
+  .header-link {
+    background-color: skyblue;
+    width: 100%;
+    text-align: center;
+    color: white;
+    margin-bottom: 25px;
+    text-align: center;
+  }
+  .header-link a{
+    display: block;
+  }
+  .overlay{
+    position: absolute;
+    background-color: rgba(0,0,0,0.3);
+    top: 62%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 37%;
+  }
+  .jumbotron {
+    width:100%;
+    margin-left: 2px;
+  }
+  .cards .jumbotron {
+    margin-left: 10px;
+  }
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    width: 80%;
+    height: 30%;
+    border-color: skyblue;
+    display: inline-block;
+    margin: 20px;
+    padding: 10px 16px;
+  }
+}
+@media (max-width: 920px) and (min-width: 460px) {
+  .container{
+    margin-left: 2px;
+  }
+  .col-xs{
+    float: left;
+    width: 70%;
+    height: auto;
+    margin-left:30%;
+    margin-right: 30%;
+  }
+  .col-md{
+    width:80%;
+    text-align: center;
+    margin-left: 9%;
+    font-size: 14pt;
+  }
+  .row .col-sm {
+    width: auto;
+    height: auto;
+    display: inline-block;
+    margin-left: 20px;
+  }
+  .header-link {
+    background-color: skyblue;
+    width: 100%;
+    text-align: center;
+    color: white;
+    margin-bottom: 25px;
+    text-align: center;
+  }
+  .header-link a{
+    display: block;
+  }
+  .overlay{
+    position: absolute;
+    background-color: rgba(0,0,0,0.3);
+    top: 66%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 34%;
+  }
+  .jumbotron {
+    width:100%;
+    margin-left: 2px;
+  }
+  .cards .jumbotron {
+    margin-left: 10%;
+  }
+  .c .col-sm{
+    float: right;
+  }
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    width: 30%;
+    height: 30%;
+    border-color: skyblue;
+    display: inline-block;
+    margin: 20px;
+    padding: 10px 16px;
+  }
 }
