@@ -1,0 +1,28 @@
+/**/
+/*Stylings for header*/
+.header {
+  width: 100%;
+  float: left;
+  background:#ffffff;
+}
+.account-links, .logo-image-container {
+  padding: 10px 0;
+  margin-bottom: 15px;
+}
+.h4{
+  font-style:"Liberation Mono";
+}
+.navbar{
+  padding: 10px 10px;
+}
+#myCarousel{
+  width: 91%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+.top-margin{
+  margin-top: 20px;
+}
+
